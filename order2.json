@@ -1,0 +1,10 @@
+{
+    "order_id": "44",
+    "customer_id": "87",
+    "items": [
+      { "product_id": "prod-001", "quantity": 2 },
+      { "product_id": "prod-002", "quantity": 1 },
+      { "product_id": "prod-004", "quantity": 1}
+    ]
+  }
+  
