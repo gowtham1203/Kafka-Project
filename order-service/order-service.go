@@ -67,7 +67,7 @@ func publishOrderToKafka(order Order) error {
 	if err != nil {
 		log.Printf("Event published, but failed to fetch offset: %v", err)
 	} else {
-		log.Printf("Event published to partition %d at offset %d", partition, offset)
+		log.Printf("Event published : OrderID %s  to partition %d at offset %d", order.OrderID, partition, offset)
 	}
 
 	return nil
